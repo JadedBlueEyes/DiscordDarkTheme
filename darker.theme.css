@@ -1,0 +1,88 @@
+/**
+ * @name Darker theme
+ * @author jadedblueeyes
+ * @description A darker theme without a colored tint
+ * @source https://github.com/JadedBlueEyes/DiscordDarkTheme
+*/
+
+.theme-dark {
+    --header-primary: #aaa;
+    --header-secondary: #c1c1c1;
+    --text-normal: #e0e0e0;
+    --text-muted: #7b7b7b;
+    --text-link: #b454ff;
+    --channels-default: #989898;
+    --interactive-normal: #b7b7b7;
+    --interactive-hover: #dcdcdc;
+    --interactive-active: #fff;
+    --interactive-muted: #464646;
+    --background-primary: #292929;
+    --background-secondary: #2d2d2d;
+    --background-secondary-alt: #383838;
+    --background-tertiary: #212121;
+    --background-accent: #565656;
+    --background-floating: #191919;
+    --background-mobile-primary: #383838;
+    --background-mobile-secondary: #2d2d2d;
+    --background-modifier-hover: rgba(82, 82, 82, 0.16);
+    --background-modifier-active: rgba(74, 74, 74, 0.24);
+    --background-modifier-selected: rgba(76, 76, 76, 0.32);
+    --background-modifier-accent: hsla(0,0%,100%,0.06);
+    --background-mentioned: rgba(250,166,26,0.05);
+    --background-mentioned-hover: rgba(250,166,26,0.08);
+    --background-message-hover: rgba(6, 6, 6, 0.07);
+    --background-help-warning: rgba(250,166,26,0.1);
+    --background-help-info: rgba(150, 0, 244, 0.1);
+    --scrollbar-thin-thumb: #252525;
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: #484848;
+    --scrollbar-auto-track: #313131;
+    --scrollbar-auto-scrollbar-color-thumb: #292929;
+    --scrollbar-auto-scrollbar-color-track: #353535;
+    --elevation-stroke: 0 0 0 1px rgba(4,4,4,0.15);
+    --elevation-low: 0 1px 0 rgba(4,4,4,0.2),0 1.5px 0 rgba(6,6,6,0.05),0 2px 0 rgba(4,4,4,0.05);
+    --elevation-medium: 0 4px 4px rgba(0,0,0,0.16);
+    --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
+    --logo-primary: #fff;
+    --focus-primary: #8f00f4;
+    --radio-group-dot-foreground: #a88ee1;
+    --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+    --channeltextarea-background: #3c3c3c;
+    --activity-card-background: #232323;
+    --textbox-markdown-syntax: #909090;
+    --deprecated-card-bg: rgba(32,34,37,0.6);
+    --deprecated-card-editable-bg: rgba(32,34,37,0.3);
+    --deprecated-store-bg: #36393f;
+    --deprecated-quickswitcher-input-background: #72767d;
+    --deprecated-quickswitcher-input-placeholder: hsla(0,0%,100%,0.3);
+    --deprecated-text-input-bg: rgba(0,0,0,0.1);
+    --deprecated-text-input-border: rgba(0,0,0,0.3);
+    --deprecated-text-input-border-hover: #040405;
+    --deprecated-text-input-border-disabled: #202225;
+    --deprecated-text-input-prefix: #dcddde;
+}
+
+:root {
+    --bd-blue: #743ee5;
+    --bd-blue-hover: rgb(116, 56, 206);
+    --bd-blue-active: rgb(138, 50, 183);
+    --blurple: #9d72da;
+}
+
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
+    background-color: #272727;
+    color: hsla(0,0%,100%,.8);
+}
+
+.theme-dark .headerNormal-T_seeN {
+    background-color: #1f1f1f;
+}
+
+.lookFilled-1Gx00P.colorBrand-3pXr91 {
+    color: #fff;
+    background-color: #5b367d;
+}
+
+.theme-dark .container-1D34oG {
+    background-color: transparent;
+}
